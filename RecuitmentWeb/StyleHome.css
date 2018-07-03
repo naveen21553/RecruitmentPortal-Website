@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background: url('IndexBackground.jpg') no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+.top-bar{
+    margin: 0px;
+    padding: 0px;
+    background: green;
+    opacity: 0.8;
+
+    height: 60px;
+    width: 100%;
+}
+
+.top-bar .title{
+    padding: 0px;
+    border: 0px;
+    height: 60px;
+    width: 600px;
+    margin: 0px auto;
+    line-height: 60px;
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top-bar .title h1{
+    border:0px;
+    padding: 0px;
+    width: 500px;
+    margin: 0px auto;
+
+}
+.top-bar .user-login{
+    margin-right: 40px;
+    float: right;
+    padding: 0px;
+}
+.top-bar .user-login a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 22px;
+    line-height: 60px;
+}
+.top-bar .user-login img{
+    
+    width: 28px;
+    padding: 20px 10px 10px 10px;
+}
+.navigation{
+    background: black;
+    opacity: 0.7;
+    padding: 0px;
+    margin: 0px auto;
+    overflow: hidden;
+    width: 100%;
+}
+ul{
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px auto;
+    width: 840px;
+}
+ul li{    
+    float: left;
+    width: 200px;
+    height: 50 px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+    background-color:rgb(73, 72, 72);
+    text-align: center;
+    border: 5px solid black;
+}
+ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+ul li a:hover{
+    background: green;
+}
+
+
+.container{
+    padding: 10px 0px;
+    margin: 10px auto;
+    width: 800px;
+    background: darkcyan;
+    opacity:0.90;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0,0,0,.8);
+    box-sizing: border-box;
+    color: white;
+}
+.content-box{
+    padding: 40px 40px;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.content-box img{
+    width: 100px;
+}
+#mypic{
+    width: 500px;
+    padding: 20px 0px;
+}
