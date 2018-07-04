@@ -1,4 +1,4 @@
-# RecruitmentPortal-Website
+# Recruitment Portal-Website
 html/css
 
 <ul>
@@ -16,4 +16,6 @@ html/css
     </ul>
   </li>
 </ul>
+
+Naveen Jangid
 
